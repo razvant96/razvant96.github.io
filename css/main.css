@@ -17,64 +17,66 @@
 @media (min-width: 768px) { h4{font-size: 13px;}}
 @media (min-width: 992px) { h4{font-size: 15px;}}
 
-.ph img:hover {
-    -moz-transform: rotate(370deg) scale(1.4);
-    -ms-transform:rotate(370deg) scale(1.4);
-    -o-transform: rotate(370deg) scale(1.4);
-    -webkit-transform: rotate(370deg) scale(1.4);
-    transform: rotate(370deg) scale(1.4);
-    z-index: 15;
-}
-#t1{
-    margin-left:50px;
+
+.ph img:nth-of-type(1){
+    margin-left:70px;
+    -ms-transform:rotate(6deg);
     -moz-transform: rotate(6deg);
     -o-transform: rotate(6deg);
-    -ms-transform:rotate(6deg);
     -webkit-transform: rotate(6deg);
     transform: rotate(6deg);
 }
  
-#t2{
-    -moz-transform: rotate(-9deg);
+.ph img:nth-of-type(2) {
+
     -ms-transform:rotate(-9deg);
+    -moz-transform: rotate(-9deg);
     -o-transform: rotate(-9deg);
     -webkit-transform: rotate(-9deg);
     transform: rotate(-9deg);
 }
  
-#t3{
+.ph img:nth-of-type(3){
+    
+    -ms-transform: rotate(8deg);
     -moz-transform: rotate(8deg);
-    -ms-transform: rotate(8deg);    
     -o-transform: rotate(8deg);
     -webkit-transform: rotate(8deg);
     transform: rotate(8deg);
 }
  
-#t4{
-    -moz-transform: rotate(-2deg);
+.ph img:nth-of-type(4) {
+    
     -ms-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
     -o-transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
     transform: rotate(-2deg);
 }
  
-#t5{
-    -moz-transform: rotate(4deg);
-    -ms-transform: rotate(4deg);
-    -o-transform: rotate(4deg);
-    -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
+.ph img:nth-of-type(5) {
+    
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
-
+.ph img:hover {
+    -ms-transform: rotate(370deg) scale(1.4);
+    -moz-transform: rotate(370deg) scale(1.4);
+    -o-transform: rotate(370deg) scale(1.4);
+    -webkit-transform: rotate(370deg) scale(1.4);
+    transform: rotate(370deg) scale(1.4);
+    z-index: 15;
+}
 .ph img {
-    -moz-transition: all 0.4s ease-out;
     -ms-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
     -o-transition: all 0.4s ease-out;
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.5s ease-out;
+    padding: 10px 10px 20px 10px;
+    background: white;
     border: solid 1px black;
-    background: white;
-    padding: 10px 10px 30px 10px;
-    background: white;
-    
 }
