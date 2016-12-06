@@ -79,7 +79,7 @@ $(document).ready(function () {
             }},1000);
         }
     });
-    $("#elgame3").click(function () {
+    $("#elgame3").click(function(){
         if (x % 2 === 0) {
             $("#im3").hide();
             $("#span3").show();
@@ -411,7 +411,7 @@ $(document).ready(function () {
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
-                c
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame12").hide();
             }},1000);
