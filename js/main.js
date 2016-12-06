@@ -384,7 +384,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#elgame12").click(function() {
+    $("#elgame12").click(function(){
         if (x % 2 === 0) {
             $("#im12").hide();
             $("#span12").show();
