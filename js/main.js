@@ -31,11 +31,13 @@ $(document).ready(function () {
                 $("#im1").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame1").hide();
             }},1000);
@@ -65,11 +67,13 @@ $(document).ready(function () {
                 $("#im2").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame2").hide();
             }},1000);
@@ -96,11 +100,13 @@ $(document).ready(function () {
                 $("#im3").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame3").hide();
             }},1000);
@@ -128,11 +134,13 @@ $(document).ready(function () {
                 $("#im4").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame4").hide();
             }},1000);s
@@ -160,11 +168,13 @@ $(document).ready(function () {
                 $("#im5").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame5").hide();
             }},1000);
@@ -192,11 +202,13 @@ $(document).ready(function () {
                 $("#im6").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame6").hide();
             }},1000);
@@ -224,11 +236,13 @@ $(document).ready(function () {
                 $("#im7").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame7").hide();
             }},1000);
@@ -256,11 +270,13 @@ $(document).ready(function () {
                 $("#im8").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame8").hide();
             }},1000);
@@ -288,11 +304,13 @@ $(document).ready(function () {
                 $("#im9").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame9").hide();
             }},1000);
@@ -319,11 +337,13 @@ $(document).ready(function () {
                 $("#im10").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame10").hide();
             }},1000);
@@ -351,11 +371,13 @@ $(document).ready(function () {
                 $("#im11").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                $("#tex").css({"color":"green"});
                 $(pa).hide(1000);
                 $("#elgame11").hide();
             }},1000);
@@ -383,11 +405,13 @@ $(document).ready(function () {
                 $("#im12").show();
                 x++;
                 $("#tex").text("Sorry you didn't match the English word with the Dutch Words");
+                $("#tex").css({"color":"red"});
             }
             else{
                 
                 x++;
                 $("#tex").text("Congratulations you managed to match one English word with one Dutch Word");
+                c
                 $(pa).hide(1000);
                 $("#elgame12").hide();
             }},1000);
