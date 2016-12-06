@@ -113,7 +113,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#elgame4").click(function () {
+    $("#elgame4").click(function(){
         if (x % 2 === 0) {
             $("#im4").hide();
             $("#span4").show();
@@ -147,7 +147,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#elgame5").click(function () {
+    $("#elgame5").click(function(){
         if (x % 2 === 0) {
             $("#im5").hide();
             $("#span5").show();
@@ -181,7 +181,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#elgame6").click(function () {
+    $("#elgame6").click(function(){
         if (x % 2 === 0) {
             $("#im6").hide();
             $("#span6").show();
@@ -215,7 +215,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#elgame7").click(function () {
+    $("#elgame7").click(function(){
         if (x % 2 === 0) {
             $("#im7").hide();
             $("#span7").show();
@@ -249,7 +249,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#elgame8").click(function () {
+    $("#elgame8").click(function(){
         if (x % 2 === 0) {
             $("#im8").hide();
             $("#span8").show();
@@ -283,7 +283,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#elgame9").click(function () {
+    $("#elgame9").click(function() {
         if (x % 2 === 0) {
             $("#im9").hide();
             $("#span9").show();
@@ -316,7 +316,7 @@ $(document).ready(function () {
             }},1000);
         }
     });
-    $("#elgame10").click(function () {
+    $("#elgame10").click(function() {
         if (x % 2 === 0) {
             $("#im10").hide();
             $("#span10").show();
@@ -350,7 +350,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#elgame11").click(function () {
+    $("#elgame11").click(function(){
         if (x % 2 === 0) {
             $("#im11").hide();
             $("#span11").show();
@@ -384,7 +384,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#elgame12").click(function () {
+    $("#elgame12").click(function() {
         if (x % 2 === 0) {
             $("#im12").hide();
             $("#span12").show();
